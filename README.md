@@ -22,6 +22,11 @@ Lucian Tash | July 2023
 - Fills the chat with empty lines, effectively clearing any previous chat messages from all players' view.
 - Note that some players may use clients which allow them to scroll higher in the chat, bypassing the clear chat.
 - This command is for operators only.
+### Alert
+- Command usage: `/alert <msg>` or `/a <msg>`
+- Sends a whitespaced message in chat for higher visibility.
+- This command is for operators only.
+- ![Alert message](image.png)
 ### Spam Filter
 - Can be enabled or disabled in the `config.yml`.
 - Blocks a message from being sent by a player who has already sent too many messages recently.
@@ -33,11 +38,6 @@ Lucian Tash | July 2023
 - Words can be added or removed in the `config.yml`.
 - Automatically mutes any player who sends a message containing a banned word, and blocks the message.
 - Words are detected using a naive substring, e.g. if "tar" is a banned word, a message containing "ca**tar**act" will be acted upon.
-### Alert
-- Command usage: `/alert <msg>` or `/a <msg>`
-- Sends a whitespaced message in chat for higher visibility.
-- This command is for operators only.
-- ![Alert message](image.png)
 ### Chat Color Codes
 - Operators can use color codes to decorate their chat messages.
 - These follow the [standard Minecraft color codes](https://htmlcolorcodes.com/minecraft-color-codes/) with `&` as the prefix.
