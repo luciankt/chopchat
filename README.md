@@ -45,5 +45,3 @@ Lucian Tash | July 2023
 - ![Alt text](image-1.png)
 
 ---
-
-*```NOTE: None of these features affect private messages (e.g. /msg).```*
