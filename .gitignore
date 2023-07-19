@@ -1,2 +1,4 @@
-server/
-!server/plugins/ChopChat.jar
+server/*
+server/plugins/bStats
+server/plugins/ChopChat
+!server/plugins
