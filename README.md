@@ -46,4 +46,4 @@ Lucian Tash | July 2023
 
 ---
 
-*```NOTE: None of these features affect private messages (whispers) or messages sent via commands (/me, /say, etc).```*
+*```NOTE: None of these features affect private messages (e.g. /msg).```*
