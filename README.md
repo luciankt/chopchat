@@ -43,3 +43,7 @@ Lucian Tash | July 2023
 - These follow the [standard Minecraft color codes](https://htmlcolorcodes.com/minecraft-color-codes/) with `&` as the prefix.
 - For example, `&6&lCat &r&nDog &aBird` will look like:
 - ![Alt text](image-1.png)
+
+---
+
+*```NOTE: None of these features affect private messages (whispers) or messages sent via commands (/me, /say, etc).```*
