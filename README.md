@@ -37,7 +37,7 @@ Lucian Tash | July 2023
 ### Banned Words Filter
 - Words can be added or removed in the `config.yml`.
 - Automatically mutes any player who sends a message containing a banned word, and blocks the message.
-- Words are detected using a naive substring, e.g. if "tar" is a banned word, a message containing "ca**tar**act" will be acted upon.
+- Words are detected using a naive substring, i.e. if "tar" is a banned word, a message containing "ca**tar**act" will be acted upon.
 ### Chat Color Codes
 - Operators can use color codes to decorate their chat messages.
 - These follow the [standard Minecraft color codes](https://htmlcolorcodes.com/minecraft-color-codes/) with `&` as the prefix.
