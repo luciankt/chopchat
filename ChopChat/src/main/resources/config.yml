@@ -1,0 +1,11 @@
+enable_spam_filter: true
+spam_msg_count: 3
+spam_msg_cooldown: 5
+duplicate_msg_cooldown: 15
+warn_spam: You are sending too many messages. Slow down!
+warn_english: You must use English in the public chat.
+banned_substrings:
+  - nigger
+  - nigga
+  - fag
+  - retard

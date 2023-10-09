@@ -1,0 +1,32 @@
+name: ChopChat
+version: '${project.version}'
+main: mc.chopchat.chopchat.ChopChat
+api-version: '1.20'
+commands:
+  lockchat:
+    description: Prevents all non-OP players from sending chat messages.
+    usage: "Usage: /lockchat"
+    permission: lockchat
+    permission-message: You can't do this.
+  alert:
+    description: Sends an alert message to all players.
+    usage: "Usage: /alert <message>"
+    aliases: a
+    permission: alert
+    permission-message: You can't do this.
+  mute:
+    description: Prevent a player from sending chat messages.
+    usage: "Usage: /mute <player> <duration> <reason>"
+    permission: mute
+    permission-message: You can't do this.
+  unmute:
+    description: Remove a mute punishment from a player.
+    usage: "Usage: /unmute <player>"
+    permission: mute
+    permission-message: You can't do this.
+  clearchat:
+    description: Clear all messages from the chat.
+    aliases: cc
+    usage: "Usage: /clearchat"
+    permission: clearchat
+    permission-message: You can't do this
