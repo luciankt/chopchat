@@ -50,6 +50,7 @@ public final class ChopChat extends JavaPlugin {
         getCommand("lockchat").setExecutor(new LockChat());
         getCommand("alert").setExecutor(new Alert());
         getCommand("mute").setExecutor(new Mute());
+        getCommand("cban").setExecutor(new CBan());
         getCommand("unmute").setExecutor(new Unmute());
         getCommand("clearchat").setExecutor(new ClearChat());
 
