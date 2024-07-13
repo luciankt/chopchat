@@ -1,0 +1,33 @@
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+  icanhasbukkit:
+  - version $1-
+  reload:
+  - minecraft:reload
+  rl:
+  - minecraft:reload
+  me:
+  - []
+  minecraft:me:
+  - []
+  tell:
+  - []
+  msg:
+  - []
+  minecraft:msg:
+  - []
+  minecraft:tell:
+  - []
+  w:
+  - []
+  minecraft:w:
+  - []
+  ban-ip:
+  - []
+  ban:
+  - execute if entity @a[name=$$1] run minecraft:tellraw @a [{"selector":"@a[name=$$1]","color":"#FF0000","bold":true},{"text":"
+    has been banned for suspected cheating.","color":"dark_red","bold":false},{"text":"
+    Please report cheating privately. Do not publicly accuse players.","color":"red","bold":false}]
+  - minecraft:ban-ip $$1 §cCheating - This decision is final and there is no recourse.
+  - minecraft:ban $$1 §cCheating - This decision is final and there is no recourse.
