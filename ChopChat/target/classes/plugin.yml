@@ -19,11 +19,11 @@ commands:
     usage: "Usage: /mute <player> <duration> <reason>"
     permission: mute
     permission-message: You can't do this.
-  cban:
-    description: Bans a player.
-    usage: "Usage: /cban <player> <reason>"
-    permission: cban
-    permission-message: You can't do this.
+#  cban:
+#    description: Bans a player.
+#    usage: "Usage: /cban <player> <reason>"
+#    permission: cban
+#    permission-message: You can't do this.
   unmute:
     description: Remove a mute punishment from a player.
     usage: "Usage: /unmute <player>"
