@@ -44,6 +44,8 @@ public class ChatHandler implements Listener {
         // Provide color chat codes for operators
         if (player.hasPermission("colorchat")) {
             event.message(Component.text(message.replaceAll("&([a-f0-9k-or])", "§$1")));
+        } else {
+            event.message(Component.text("§1" + message));
         }
     }
 
