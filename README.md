@@ -1,4 +1,4 @@
-# ChopChat v1.1 - Minecraft 1.21
+# ChopChat for Minecraft 1.21
 *A lightweight Minecraft chat moderation plugin.*
 
 Lucian Tash | July 2023
