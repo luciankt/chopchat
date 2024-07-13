@@ -46,7 +46,7 @@ Lucian Tash | July 2023
 ### Ban-Evasion Prevention
 - Accounts which attempt to join and are disconnected due to being banned will be redundantly banned by IP and username.
 - This ensures that players are doubly-banned by both IP and username, and makes it more difficult to evade with additional accounts or VPNs.
-- This should be paired with the modified ban command defined in commands.yml, and moderators should use /ban for all bans, not /ban-ip or /minecraft:ban.
-- See commands.yml file for reference.
+- This should be paired with the modified ban command defined in commands.yml, and moderators should use `/ban` for all bans, not `/ban-ip` or `/minecraft:ban`.
+- See the [commands.yml](https://github.com/luciankt/chopchat/blob/main/server/commands.yml) file for reference.
 
 ---
