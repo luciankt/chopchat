@@ -11,14 +11,6 @@ aliases:
   - []
   minecraft:me:
   - []
-  plugins:
-  - []
-  bukkit:plugins:
-  - []
-  pl:
-  - []
-  bukkit:pl:
-  - []
   tell:
   - []
   msg:
@@ -37,10 +29,5 @@ aliases:
   - execute if entity @a[name=$$1] run minecraft:tellraw @a [{"selector":"@a[name=$$1]","color":"#FF0000","bold":true},{"text":"
     has been banned for suspected cheating.","color":"dark_red","bold":false},{"text":"
     Please report cheating privately. Do not publicly accuse players.","color":"red","bold":false}]
-  - scoreboard players reset $$1 score
-  - scoreboard players reset $$1 blocksMined
-  - scoreboard players reset $$1 dollars
-  - scoreboard players reset $$1 cents
   - minecraft:ban-ip $$1 §cCheating - This decision is final and there is no recourse.
   - minecraft:ban $$1 §cCheating - This decision is final and there is no recourse.
-  - co rollback $$1 t:2w radius:#world
