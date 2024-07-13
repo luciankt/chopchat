@@ -2,8 +2,10 @@ mc\chopchat\chopchat\handlers\CommandHandler.class
 mc\chopchat\chopchat\handlers\PlayerJoinHandler.class
 mc\chopchat\chopchat\util\MuteEntry.class
 mc\chopchat\chopchat\commands\ClearChat.class
+mc\chopchat\chopchat\commands\CBan.class
 mc\chopchat\chopchat\commands\Unmute.class
 mc\chopchat\chopchat\commands\LockChat.class
+mc\chopchat\chopchat\ChopChat.class
 mc\chopchat\chopchat\handlers\ChatHandler.class
 mc\chopchat\chopchat\commands\Mute.class
 mc\chopchat\chopchat\commands\Alert.class
