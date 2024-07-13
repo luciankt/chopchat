@@ -4,3 +4,5 @@ server/plugins/ChopChat
 !server/plugins
 ChopChat/target/*
 ChopChat\target\ChopChat-1.0-SNAPSHOT.jar
+ChopChat/pom.xml
+/ChopChat/target
