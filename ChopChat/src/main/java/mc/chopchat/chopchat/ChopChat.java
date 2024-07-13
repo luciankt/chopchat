@@ -9,7 +9,6 @@ import net.kyori.adventure.text.format.NamedTextColor;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.util.List;
 
 public final class ChopChat extends JavaPlugin {
@@ -50,7 +49,6 @@ public final class ChopChat extends JavaPlugin {
         getCommand("lockchat").setExecutor(new LockChat());
         getCommand("alert").setExecutor(new Alert());
         getCommand("mute").setExecutor(new Mute());
-        getCommand("cban").setExecutor(new CBan());
         getCommand("unmute").setExecutor(new Unmute());
         getCommand("clearchat").setExecutor(new ClearChat());
 
