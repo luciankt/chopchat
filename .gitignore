@@ -2,5 +2,5 @@ server/*
 server/plugins/bStats
 server/plugins/ChopChat
 !server/plugins
-ChopChat/target/ChopChat-1.0-SNAPSHOT.jar
-/ChopChat/target
+ChopChat/target/*
+ChopChat\target\ChopChat-1.0-SNAPSHOT.jar
